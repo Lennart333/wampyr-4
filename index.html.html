@@ -1,0 +1,325 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>A Noite Eterna - Portal do Vampirismo Esotérico</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+  <style>
+    @import url('https://fonts.googleapis.com/css2?family=Cinzel+Decorative:wght@400;700&family=MedievalSharp&display=swap');
+    
+    body {
+      font-family: 'MedievalSharp', serif;
+      background-color: #0a0205;
+      color: #d1cdd8;
+    }
+    
+    .title-font {
+      font-family: 'Cinzel Decorative', cursive;
+    }
+    
+    .blood-drop {
+      position: relative;
+    }
+    
+    .blood-drop::after {
+      content: "";
+      position: absolute;
+      bottom: -10px;
+      left: 50%;
+      transform: translateX(-50%);
+      width: 20px;
+      height: 30px;
+      background: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24'%3E%3Cpath fill='%23b71c1c' d='M12,21.35L10.55,20.03C5.4,15.36 2,12.27 2,8.5C2,5.41 4.42,3 7.5,3C9.24,3 10.91,3.81 12,5.08C13.09,3.81 14.76,3 16.5,3C19.58,3 22,5.41 22,8.5C22,12.27 18.6,15.36 13.45,20.03L12,21.35Z'/%3E%3C/svg%3E") no-repeat;
+    }
+  </style>
+</head>
+<body>
+  <!-- Header -->
+  <header class="border-b border-red-900 bg-black bg-opacity-80 fixed w-full z-50">
+    <div class="container mx-auto px-4 py-3 flex justify-between items-center">
+      <div class="title-font text-2xl text-red-600 blood-drop">
+        A Noite Eterna
+      </div>
+      <nav class="hidden md:flex space-x-6">
+        <a href="#inicio" class="text-gray-300 hover:text-red-500 transition duration-300">Início</a>
+        <a href="#historia" class="text-gray-300 hover:text-red-500 transition duration-300">História</a>
+        <a href="#rituais" class="text-gray-300 hover:text-red-500 transition duration-300">Rituais</a>
+        <a href="#galeria" class="text-gray-300 hover:text-red-500 transition duration-300">Galeria</a>
+        <a href="#contato" class="text-gray-300 hover:text-red-500 transition duration-300">Contato</a>
+      </nav>
+      <button class="md:hidden text-gray-300 focus:outline-none">
+        <svg class="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+          <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h16M4 18h16"></path>
+        </svg>
+      </button>
+    </div>
+  </header>
+
+  <!-- Hero Section -->
+  <section id="inicio" class="min-h-screen flex items-center justify-center bg-black bg-opacity-30 relative" style="background-image: linear-gradient(rgba(10, 2, 5, 0.7), rgba(39, 11, 47, 0.7)), url('https://storage.googleapis.com/workspace-0f70711f-8b4e-4d94-86f1-2a93ccde5887/image/5d5e74eb-ac5a-4397-8d41-bb14bb5af31f.png'); background-size: cover; background-position: center;">
+    <div class="container mx-auto px-4 text-center">
+      <h1 class="title-font text-5xl md:text-7xl text-red-600 mb-6">Desperte sua Essência Vampírica</h1>
+      <p class="text-xl md:text-2xl text-gray-300 max-w-3xl mx-auto mb-8">
+        Explore os mistérios do vampirismo esotérico, rituais ancestrais e a verdadeira natureza da imortalidade.
+      </p>
+      <a href="#historia" class="bg-transparent border-2 border-red-600 text-red-600 py-3 px-6 hover:bg-red-600 hover:text-black transition duration-300 inline-block">
+        Entrar nas Sombras
+      </a>
+    </div>
+    <div class="absolute bottom-10 left-1/2 transform -translate-x-1/2 animate-bounce">
+      <svg class="w-8 h-8 text-red-600" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 14l-7 7m0 0l-7-7m7 7V3"></path>
+      </svg>
+    </div>
+  </section>
+
+  <!-- História Section -->
+  <section id="historia" class="py-20 bg-gradient-to-b from-black to-purple-900">
+    <div class="container mx-auto px-4">
+      <h2 class="title-font text-4xl text-center text-red-600 mb-12">O Crepúsculo da Verdade</h2>
+      
+      <div class="grid md:grid-cols-2 gap-12 items-center mb-16">
+        <div>
+          <h3 class="text-2xl text-red-500 mb-4">Origens Esotéricas</h3>
+          <p class="text-gray-300 mb-4">
+            O vampirismo transcende meras lendas e histórias de terror. Nos círculos esotéricos, entendemos o vampiro como um arquétipo espiritual, uma manifestação das energias primordiais da noite e da imortalidade.
+          </p>
+          <p class="text-gray-300 mb-4">
+            Os primeiros registros datam das culturas sumérias e babilônicas, onde entidades semelhantes a vampiros eram reverenciadas como portadoras de conhecimento proibido.
+          </p>
+          <p class="text-gray-300">
+            Nos templos secretos da Transilvânia e nas montanhas dos Cárpatos, os verdadeiros guardiões desta tradição preservam os rituais de transformação desde os tempos da antiga Lemúria.
+          </p>
+        </div>
+        <div class="shadow-lg shadow-red-900/50">
+          <img src="https://storage.googleapis.com/workspace-0f70711f-8b4e-4d94-86f1-2a93ccde5887/image/d21dd9ce-7cb4-415b-9d6c-66ef715d82d0.png" alt="Antigo tomo de couro envelhecido com símbolos alquímicos em vermelho e dourado, aberto em uma página contendo rituais vampíricos" class="rounded-lg border border-red-900/50">
+        </div>
+      </div>
+      
+      <div class="grid md:grid-cols-2 gap-12 items-center mt-16">
+        <div class="order-1 md:order-2">
+          <h3 class="text-2xl text-red-500 mb-4">Linhagens Sangrentas</h3>
+          <p class="text-gray-300 mb-4">
+            Sete são as principais linhagens vampíricas reconhecidas pelos círculos ocultistas:
+          </p>
+          <ul class="text-gray-300 space-y-2 mb-6">
+            <li class="flex items-start">
+              <svg class="w-5 h-5 text-red-500 mr-2 mt-1" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg"><path d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z"></path></svg>
+              <span>Os Sanguinarium - mestres da hematomancia</span>
+            </li>
+            <li class="flex items-start">
+              <svg class="w-5 h-5 text-red-500 mr-2 mt-1" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg"><path d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z"></path></svg>
+              <span>Os Nocturnis - senhores da energia lunar</span>
+            </li>
+            <li class="flex items-start">
+              <svg class="w-5 h-5 text-red-500 mr-2 mt-1" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg"><path d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z"></path></svg>
+              <span>Os Strigoi - guardiões dos antigos mistérios</span>
+            </li>
+            <li class="flex items-start">
+              <svg class="w-5 h-5 text-red-500 mr-2 mt-1" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg"><path d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z"></path></svg>
+              <span>Os Moroii - praticantes da necromancia vampírica</span>
+            </li>
+          </ul>
+        </div>
+        <div class="order-2 md:order-1 shadow-lg shadow-red-900/50">
+          <img src="https://storage.googleapis.com/workspace-0f70711f-8b4e-4d94-86f1-2a93ccde5887/image/332ee580-584d-403f-91fe-8f3e29ff4b74.png" alt="Pintura gótica mostrando uma família vampírica aristocrática em trajes elegantes do século XVIII, com olhos penetrantes e pequenos detalhes de sangue nas gengivas" class="rounded-lg border border-red-900/50">
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Ritual Section -->
+  <section id="rituais" class="py-20 bg-purple-900 bg-opacity-90">
+    <div class="container mx-auto px-4">
+      <h2 class="title-font text-4xl text-center text-red-600 mb-12">Rituais da Lua Vermelha</h2>
+      
+      <div class="grid md:grid-cols-3 gap-8">
+        <div class="bg-black bg-opacity-50 p-6 rounded-lg border border-red-900/30 hover:border-red-600 transition duration-300 transform hover:scale-105">
+          <div class="text-center mb-4">
+            <div class="inline-flex items-center justify-center w-16 h-16 bg-red-900 rounded-full mb-4">
+              <svg class="w-8 h-8 text-red-300" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M20.354 15.354A9 9 0 018.646 3.646 9.003 9.003 0 0012 21a9.003 9.003 0 008.354-5.646z"></path>
+              </svg>
+            </div>
+            <h3 class="text-xl text-red-500 font-semibold mb-2">Batismo das Sombras</h3>
+            <p class="text-gray-300">
+              Ritual de iniciação para despertar a consciência vampírica interior através da meditação sob a lua nova.
+            </p>
+          </div>
+        </div>
+        
+        <div class="bg-black bg-opacity-50 p-6 rounded-lg border border-red-900/30 hover:border-red-600 transition duration-300 transform hover:scale-105">
+          <div class="text-center mb-4">
+            <div class="inline-flex items-center justify-center w-16 h-16 bg-red-900 rounded-full mb-4">
+              <svg class="w-8 h-8 text-red-300" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg">
+                <path fill-rule="evenodd" d="M3.172 5.172a4 4 0 015.656 0L10 6.343l1.172-1.171a4 4 0 115.656 5.656L10 17.657l-6.828-6.829a4 4 0 010-5.656z" clip-rule="evenodd"></path>
+              </svg>
+            </div>
+            <h3 class="text-xl text-red-500 font-semibold mb-2">Banquete Carmesim</h3>
+            <p class="text-gray-300">
+              Cerimônia de energização através da hematomancia e consumo ritualístico de substâncias vitalizadas.
+            </p>
+          </div>
+        </div>
+        
+        <div class="bg-black bg-opacity-50 p-6 rounded-lg border border-red-900/30 hover:border-red-600 transition duration-300 transform hover:scale-105">
+          <div class="text-center mb-4">
+            <div class="inline-flex items-center justify-center w-16 h-16 bg-red-900 rounded-full mb-4">
+              <svg class="w-8 h-8 text-red-300" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M13 10V3L4 14h7v7l9-11h-7z"></path>
+              </svg>
+            </div>
+            <h3 class="text-xl text-red-500 font-semibold mb-2">Dádiva de Lamastu</h3>
+            <p class="text-gray-300">
+              Transformação e fortalecimento do corpo astral para resistir à luz solar e fortalecer sentidos noturnos.
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Galeria -->
+  <section id="galeria" class="py-20 bg-gradient-to-b from-purple-900 to-black">
+    <div class="container mx-auto px-4">
+      <h2 class="title-font text-4xl text-center text-red-600 mb-16">Arcano Vampyrum</h2>
+      
+      <div class="grid grid-cols-2 md:grid-cols-4 gap-4">
+        <div class="overflow-hidden rounded-lg shadow-lg shadow-red-900/20 hover:shadow-red-600/30 transition duration-300">
+          <div class="aspect-w-1 aspect-h-1">
+            <img src="https://storage.googleapis.com/workspace-0f70711f-8b4e-4d94-86f1-2a93ccde5887/image/fab4a182-1002-4a34-b0ba-1840f10084ff.png" alt="Cálice de prata antigo com inscrições vampíricas, contendo sangue e cercado por velas pretas derretidas" class="object-cover transition duration-300 hover:scale-105">
+          </div>
+        </div>
+        
+        <div class="overflow-hidden rounded-lg shadow-lg shadow-red-900/20 hover:shadow-red-600/30 transition duration-300">
+          <div class="aspect-w-1 aspect-h-1">
+            <img src="https://storage.googleapis.com/workspace-0f70711f-8b4e-4d94-86f1-2a93ccde5887/image/d0d06822-7e8c-4a3e-b16a-fb7b2f32b260.png" alt="Mandala complexa com símbolos alquímicos e vampíricos em tons de vermelho e dourado sobre pergaminho antigo" class="object-cover transition duration-300 hover:scale-105">
+          </div>
+        </div>
+        
+        <div class="overflow-hidden rounded-lg shadow-lg shadow-red-900/20 hover:shadow-red-600/30 transition duration-300">
+          <div class="aspect-w-1 aspect-h-1">
+            <img src="https://storage.googleapis.com/workspace-0f70711f-8b4e-4d94-86f1-2a93ccde5887/image/208cbc2f-3d3d-46e3-ae8c-72317b9a6398.png" alt="Par de adagas ornamentadas com cabos de ossos e lâminas gravadas com runas de poder, cruzadas sobre um altar" class="object-cover transition duration-300 hover:scale-105">
+          </div>
+        </div>
+        
+        <div class="overflow-hidden rounded-lg shadow-lg shadow-red-900/20 hover:shadow-red-600/30 transition duration-300">
+          <div class="aspect-w-1 aspect-h-1">
+            <img src="https://storage.googleapis.com/workspace-0f70711f-8b4e-4d94-86f1-2a93ccde5887/image/2dc9e3e5-e6b4-44c5-b7e5-cac7ab9fd38e.png" alt="Figura vestida em trajes góticos antigos sentada em círculo de velas, realizando gestos rituais com as mãos" class="object-cover transition duration-300 hover:scale-105">
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Contato -->
+  <section id="contato" class="py-20 bg-black">
+    <div class="container mx-auto px-4 max-w-4xl">
+      <h2 class="title-font text-4xl text-center text-red-600 mb-12">Entre nas Sombras</h2>
+      
+      <div class="bg-black bg-opacity-70 p-8 rounded-lg border border-red-900/50 shadow-lg shadow-red-900/20">
+        <form class="space-y-6">
+          <div>
+            <label for="name" class="block text-sm font-medium text-gray-300">Nome</label>
+            <input type="text" id="name" class="mt-1 block w-full bg-gray-900 border border-red-900 rounded-md shadow-sm py-2 px-3 text-gray-300 focus:outline-none focus:ring-red-500 focus:border-red-500">
+          </div>
+          
+          <div>
+            <label for="email" class="block text-sm font-medium text-gray-300">Email</label>
+            <input type="email" id="email" class="mt-1 block w-full bg-gray-900 border border-red-900 rounded-md shadow-sm py-2 px-3 text-gray-300 focus:outline-none focus:ring-red-500 focus:border-red-500">
+          </div>
+          
+          <div>
+            <label for="message" class="block text-sm font-medium text-gray-300">Mensagem</label>
+            <textarea id="message" rows="4" class="mt-1 block w-full bg-gray-900 border border-red-900 rounded-md shadow-sm py-2 px-3 text-gray-300 focus:outline-none focus:ring-red-500 focus:border-red-500"></textarea>
+          </div>
+          
+          <div class="flex items-center">
+            <input id="terms" name="terms" type="checkbox" class="h-4 w-4 text-red-600 focus:ring-red-500 border-red-900 rounded bg-gray-900">
+            <label for="terms" class="ml-2 block text-sm text-gray-300">
+              Concordo em me tornar um neófito
+            </label>
+          </div>
+          
+          <div class="pt-4">
+            <button type="submit" class="w-full flex justify-center py-3 px-4 border border-transparent rounded-md shadow-sm text-sm font-medium text-black bg-red-600 hover:bg-red-700 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-red-500 transition duration-300">
+              Enviar Pacto
+            </button>
+          </div>
+        </form>
+      </div>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer class="bg-black bg-opacity-90 border-t border-red-900/30 py-8">
+    <div class="container mx-auto px-4">
+      <div class="flex flex-col md:flex-row justify-between items-center">
+        <div class="title-font text-xl text-red-600 mb-4 md:mb-0">
+          A Noite Eterna © <span id="year"></span>
+        </div>
+        
+        <div class="flex space-x-6">
+          <a href="#" class="text-gray-400 hover:text-red-500">
+            <svg class="w-6 h-6" fill="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path d="M12 2C6.477 2 2 6.477 2 12c0 4.42 2.865 8.167 6.839 9.49.5.091.682-.217.682-.482 0-.237-.008-.866-.013-1.7-2.782.603-3.369-1.34-3.369-1.34-.454-1.156-1.11-1.462-1.11-1.462-.908-.62.069-.608.069-.608 1.003.07 1.531 1.03 1.531 1.03.892 1.529 2.341 1.087 2.91.832.092-.647.35-1.088.636-1.338-2.22-.253-4.555-1.11-4.555-4.943 0-1.091.39-1.984 1.029-2.683-.103-.253-.446-1.27.098-2.647 0 0 .84-.268 2.75 1.026A9.578 9.578 0 0112 6.836c.85.004 1.705.115 2.504.336 1.909-1.294 2.747-1.026 2.747-1.026.546 1.377.203 2.394.1 2.647.64.699 1.028 1.592 1.028 2.683 0 3.842-2.339 4.687-4.566 4.933.359.309.678.919.678 1.852 0 1.336-.012 2.415-.012 2.743 0 .267.18.578.688.48C19.138 20.163 22 16.418 22 12c0-5.523-4.477-10-10-10z"></path></svg>
+          </a>
+          <a href="#" class="text-gray-400 hover:text-red-500">
+            <svg class="w-6 h-6" fill="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path d="M22.675 0H1.325C.593 0 0 .593 0 1.325v21.351C0 23.407.593 24 1.325 24H12.82v-9.294H9.692v-3.622h3.128V8.413c0-3.1 1.893-4.788 4.659-4.788 1.325 0 2.463.099 2.795.143v3.24l-1.918.001c-1.504 0-1.795.715-1.795 1.763v2.313h3.587l-.467 3.622h-3.12V24h6.116c.73 0 1.323-.593 1.323-1.325V1.325C24 .593 23.407 0 22.675 0z"></path></svg>
+          </a>
+          <a href="#" class="text-gray-400 hover:text-red-500">
+            <svg class="w-6 h-6" fill="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path d="M8.29 20.251c7.547 0 11.675-6.253 11.675-11.675 0-.178 0-.355-.012-.53A8.348 8.348 0 0022 5.92a8.19 8.19 0 01-2.357.646 4.118 4.118 0 001.804-2.27 8.224 8.224 0 01-2.605.996 4.107 4.107 0 00-6.993 3.743 11.65 11.65 0 01-8.457-4.287 4.106 4.106 0 001.27 5.477A4.072 4.072 0 012.8 9.713v.052a4.105 4.105 0 003.292 4.022 4.095 4.095 0 01-1.853.07 4.108 4.108 0 003.834 2.85A8.233 8.233 0 012 18.407a11.616 11.616 0 006.29 1.84"></path></svg>
+          </a>
+        </div>
+      </div>
+      
+      <div class="mt-8 text-center text-sm text-gray-500">
+        <p>Aviso: Este site é para fins educacionais e esotéricos. Não praticamos vampirismo físico ou qualquer atividade ilegal.</p>
+      </div>
+    </div>
+  </footer>
+
+  <script>
+    // Current year in footer
+    document.getElementById('year').textContent = new Date().getFullYear();
+    
+    // Mobile menu toggle
+    const mobileMenuButton = document.querySelector('button[aria-label="Toggle Menu"]');
+    const mobileMenu = document.querySelector('#mobile-menu');
+    
+    mobileMenuButton.addEventListener('click', () => {
+      mobileMenu.classList.toggle('hidden');
+    });
+    
+    // Smooth scrolling for anchor links
+    document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+      anchor.addEventListener('click', function (e) {
+        e.preventDefault();
+        
+        document.querySelector(this.getAttribute('href')).scrollIntoView({
+          behavior: 'smooth'
+        });
+      });
+    });
+    
+    // Scroll reveal animation
+    window.addEventListener('load', () => {
+      const elements = document.querySelectorAll('.transition');
+      
+      const observer = new IntersectionObserver((entries) => {
+        entries.forEach(entry => {
+          if (entry.isIntersecting) {
+            entry.target.classList.add('opacity-100', 'translate-y-0');
+          }
+        });
+      }, { threshold: 0.1 });
+      
+      elements.forEach(el => {
+        el.classList.add('opacity-0', 'translate-y-4');
+        observer.observe(el);
+      });
+    });
+  </script>
+</body>
+</html>
+
